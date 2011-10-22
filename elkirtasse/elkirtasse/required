@@ -1,0 +1,133 @@
+objdump -p /home/kovax/elkirtasse/elkirtasse_3.5.0/elkirtasse 
+--------------
+  required from libgcc_s.so.1:
+    0x0b792650 0x00 08 GCC_3.0
+  required from libm.so.6:
+    0x0d696910 0x00 06 GLIBC_2.0
+  required from libc.so.6:
+    0x0d696914 0x00 07 GLIBC_2.4
+    0x09691f73 0x00 05 GLIBC_2.1.3
+    0x0d696910 0x00 04 GLIBC_2.0
+  required from libstdc++.so.6:
+    0x056bafd3 0x00 03 CXXABI_1.3
+    0x08922974 0x00 02 GLIBCXX_3.4
+
+--------------------------------------
+tous 
+dpkg-depcheck -d /home/kovax/elkirtasse/elkirtasse_3.5.0/elkirtasse
+
+warning: alternatives used:
+/usr/share/icons/default/index.theme --> /usr/share/icons/DMZ-White/cursor.theme
+The following files did not appear to belong to any package:
+/usr/share/icons/gnome/icon-theme.cache
+/usr/share/icons/default/index.theme
+/usr/share//mime/mime.cache
+/usr/lib/gio/modules/giomodule.cache
+/usr/share/icons/hicolor/icon-theme.cache
+/etc/nsswitch.conf
+/usr/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache
+/usr/lib/locale/locale-archive
+/usr/lib/gtk-2.0/2.10.0/gtk.immodules
+/etc/alternatives/x-cursor-theme
+/etc/passwd
+Packages needed:
+  libavahi-common3
+  libgnome2-0
+  libx11-data
+  fontconfig-config
+  ttf-khmeros-core
+  gsfonts
+  ttf-dejavu-core
+  libgnomecanvas2-0
+  libgail18
+  ttf-ubuntu-font-family
+  fontconfig
+  libcairo2
+  language-pack-gnome-fr
+  libqtgui4
+  gvfs
+  libvorbis0a
+  locales
+  liborbit2
+  ttf-indic-fonts-core
+  libxi6
+  libpopt0
+  libgnomeui-0
+  libfreetype6
+  libjpeg62
+  cups
+  libvorbisfile3
+  libatk1.0-0
+  libdbus-1-3
+  libxcursor1
+  libgtk2.0-0
+  gtk2-engines
+  libxcb1
+  language-pack-gnome-en
+  libgdk-pixbuf2.0-0
+  ttf-thai-tlwg
+  libgcrypt11
+  language-pack-fr
+  libqtcore4
+  libfontconfig1
+  libxrandr2
+  libcanberra-gtk-module
+  libgnutls26
+  libdbus-glib-1-2
+  libgnome-keyring0
+  language-pack-gnome-en-base
+  libart-2.0-2
+  libtiff4
+  libxcb-shm0
+  libexpat1
+  libtdb1
+  libxau6
+  ttf-punjabi-fonts
+  libx11-6
+  libxcomposite1
+  ttf-unfonts-core
+  libgconf2-4
+  libglib2.0-0
+  libcanberra0
+  libogg0
+  libxdamage1
+  libqt4-dbus
+  libtasn1-3
+  libxt6
+  libmng1
+  libxdmcp6
+  libxfixes3
+  language-pack-en
+  libavahi-glib1
+  libqt4-xml
+  hicolor-icon-theme
+  libgvfscommon0
+  libxml2
+  dmz-cursor-theme
+  liblcms1
+  libpng12-0
+  libice6
+  gnome-icon-theme
+  libqt4-svg
+  libpixman-1-0
+  libavahi-client3
+  libbonoboui2-0
+  libxrender1
+  ttf-liberation
+  libpango1.0-0
+  libudev0
+  libgpg-error0
+  ttf-freefont
+  libgtk2.0-common
+  libsm6
+  libgnomevfs2-0
+  libxext6
+  libcanberra-gtk0
+  libxcb-render0
+  libltdl7
+  libxinerama1
+  libbonobo2-0
+  libpcre3
+  language-pack-gnome-fr-base
+  libaudio2
+

@@ -1,0 +1,13 @@
+
+[Desktop Entry]
+Type=Application
+Name=elkirtasse
+Name[ar]=مكتبة القرطاس
+
+Comment[ar]=طالع حرر اضف الكتب
+
+Exec=elkirtasse
+Icon=elkirtasse
+Categories=Office;Dictionary;
+
+

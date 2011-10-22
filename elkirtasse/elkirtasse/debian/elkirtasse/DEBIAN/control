@@ -1,0 +1,15 @@
+Package: elkirtasse
+Version: 3.5-15ubuntu2
+Architecture: i386
+Maintainer: kovax kovastros <kovax3@gmail.com>
+Installed-Size: 35412
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libqt4-xml (>= 4:4.5.3), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.6.2), libstdc++6 (>= 4.1.1)
+Recommends: mdbtools
+Section: utils
+Priority: extra
+Homepage: http://www.elkirtasse.co.cc
+Description: مكتبة القرطاس
+ مكتبة القرطكتبة القرطاس مكتبة القرطاس برنامج مجاني لتحرير ومطالعة الكتب يعتمد على مكتبة كيوتي 4.6 فما فوق.
+ مكتبة متعددة المهام تمكنك من مطالعة كتب الشاملة او اي كتب نصية بعد تحويلها.
+ بواسطة البرنامج يمكنك تتحويل الملفات xml كما يمكك حفظ الكتب الى صيغ متعددة مثل pdf و odf.
+ لمزيد من الدعم والاقتراح يمكنك زيارة هضا الموقع http://elkirtasse.22web.net/.

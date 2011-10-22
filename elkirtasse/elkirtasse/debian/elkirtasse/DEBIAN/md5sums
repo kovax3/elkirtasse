@@ -1,0 +1,49 @@
+d9fda2ae41ab54d865ec8fdbc4753f97  usr/bin/elkirtasse
+3679110ee51f40052576e8791be0beae  usr/share/applications/elkirtasse.desktop
+170c304326d0d562584be9fd9e089219  usr/share/doc/elkirtasse/AUTHORS
+476504719c80dcefe5616af1e86ca2cd  usr/share/doc/elkirtasse/changelog.Debian.gz
+9450cddb1fc96953b241be2fd64f1cd1  usr/share/doc/elkirtasse/copyright
+4b21efc9f0796adf4636f9db0f8bbd6a  usr/share/elkirtasse/data/ajzaa.xml
+5f857804842291259dffffd8d613755b  usr/share/elkirtasse/data/curan.xml
+24bfd85d7ca8d671220a79f347af4757  usr/share/elkirtasse/data/group.xml
+433f81df1edb9fef613ce1dd014fb661  usr/share/elkirtasse/data/help.html
+43440e9fdeffd9b838d72b8921385c5f  usr/share/elkirtasse/data/images/arabesque/bot.png
+321bda980fc9631ef9e4e1b570dc8e0a  usr/share/elkirtasse/data/images/arabesque/bot_left.png
+4a4d5b9e08d1d6545eb106773e67c7a6  usr/share/elkirtasse/data/images/arabesque/bot_right.png
+d267f6f389018f4f634be539d9ade6ef  usr/share/elkirtasse/data/images/arabesque/left.png
+278c458020657318f93d633d0453f416  usr/share/elkirtasse/data/images/arabesque/preview.png
+7356ce996b2b7709e79a4466e7c17d4f  usr/share/elkirtasse/data/images/arabesque/right.png
+7a27bf37bfb5ee7ab11b8b47009f6831  usr/share/elkirtasse/data/images/arabesque/top.png
+b76357f10df21171ad95f5f5ffa4e530  usr/share/elkirtasse/data/images/arabesque/top_left.png
+be7926e4b4a65d50caef72a4fea20c82  usr/share/elkirtasse/data/images/arabesque/top_right.png
+127cdb7c0506204113d92ac73342c216  usr/share/elkirtasse/data/images/default/bot.png
+bc8dc12c08add5648d0e0f18f4ea8dd1  usr/share/elkirtasse/data/images/default/bot_left.png
+9e72203288f532688e3fc8da77a452e0  usr/share/elkirtasse/data/images/default/bot_right.png
+b5b42beae83ff36c3dbb238a1765c410  usr/share/elkirtasse/data/images/default/left.png
+7ba7bbcb63f43926aac840944e1704c4  usr/share/elkirtasse/data/images/default/preview.png
+e080892787d27202f5c3119b68d490f5  usr/share/elkirtasse/data/images/default/right.png
+ea86ce9f6fe7afa7a8e8c525c863bc93  usr/share/elkirtasse/data/images/default/top.png
+4b4f57b706413c51703767f7afb49d8b  usr/share/elkirtasse/data/images/default/top_left.png
+cd7b8fec53c62782d1f92791018eae7c  usr/share/elkirtasse/data/images/default/top_right.png
+95188dfb8ac91fd9e862714f8f97e3b0  usr/share/elkirtasse/data/images/zakhrafa 2/bot.png
+1a3c150e4e8f42ab27addcccbe46632f  usr/share/elkirtasse/data/images/zakhrafa 2/bot_left.png
+d334ef4266a8397ed99c0c03d480f486  usr/share/elkirtasse/data/images/zakhrafa 2/bot_right.png
+699bd765f6aa6b8f79c551815a939653  usr/share/elkirtasse/data/images/zakhrafa 2/left.png
+993e1e7b972b120a47adaac552716a0f  usr/share/elkirtasse/data/images/zakhrafa 2/preview.png
+f53ef8a1bf4a347e0d90211c4c79622e  usr/share/elkirtasse/data/images/zakhrafa 2/right.png
+9faa66195887772e4f287581c9655239  usr/share/elkirtasse/data/images/zakhrafa 2/top.png
+235d561459a55c8005573173d59be114  usr/share/elkirtasse/data/images/zakhrafa 2/top_left.png
+37f721a181190939c8bf7b32222ee7b3  usr/share/elkirtasse/data/images/zakhrafa 2/top_right.png
+41f64419331f38f258caea11d839352c  usr/share/elkirtasse/data/images/zakhrafa/bot.png
+37419386b490bdf1029f86b6952b0762  usr/share/elkirtasse/data/images/zakhrafa/bot_left.png
+69926af7471fd30edb74e77a0885f122  usr/share/elkirtasse/data/images/zakhrafa/bot_right.png
+5c7fcf3ca9f9926d8dcd0f9b202bd3c8  usr/share/elkirtasse/data/images/zakhrafa/left.png
+ebb631d2d7e441f56e64ca6a606d1a77  usr/share/elkirtasse/data/images/zakhrafa/preview.png
+3c685c8319dfb40eb40481cd91d92be6  usr/share/elkirtasse/data/images/zakhrafa/right.png
+f6631a0ee785d32bdb3025b5081c4837  usr/share/elkirtasse/data/images/zakhrafa/top.png
+80b1b1613bcf30f99a4988d71480ead0  usr/share/elkirtasse/data/images/zakhrafa/top_left.png
+86edcfb345e041d7f13ae21a8f32f5e5  usr/share/elkirtasse/data/images/zakhrafa/top_right.png
+752106f9312ef16e475f69c870a24003  usr/share/elkirtasse/data/rowaInfo.xml
+00ebc8c4c1649a32b8933bcde8bca5e1  usr/share/elkirtasse/elkirtasse
+5388adfb92f87031a7ef21d8ba5addea  usr/share/icons/hicolor/48x48/apps/elkirtasse.png
+b21ffa01039d4025ede21134c93ca096  usr/share/icons/hicolor/scalable/apps/elkirtasse.png
