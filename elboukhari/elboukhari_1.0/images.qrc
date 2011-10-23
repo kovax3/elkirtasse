@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/bot.png</file>
+        <file>images/bot_left.png</file>
+        <file>images/bot_right.png</file>
+        <file>images/left.png</file>
+        <file>images/right.png</file>
+        <file>images/top.png</file>
+        <file>images/top_left.png</file>
+        <file>images/top_right.png</file>
+        <file>images/menu.png</file>
+        <file>images/go-first.png</file>
+        <file>images/go-last.png</file>
+        <file>images/go-next.png</file>
+        <file>images/go-previous.png</file>
+        <file>images/media-playback-pause.png</file>
+        <file>images/media-playback-start.png</file>
+        <file>images/media-playback-stop.png</file>
+        <file>images/view-list-details-symbolic.png</file>
+        <file>images/barBg.png</file>
+        <file>images/slider-h.png</file>
+        <file>images/slider-n.png</file>
+        <file>images/properties.png</file>
+        <file>images/find.png</file>
+        <file>images/boukhari.jpg</file>
+        <file>images/treeBg.jpg</file>
+        <file>images/sahih.png</file>
+        <file>images/help-about.png</file>
+        <file>images/logo.png</file>        
+        <file>images/view-fullscreen.png</file>
+    </qresource>
+</RCC>

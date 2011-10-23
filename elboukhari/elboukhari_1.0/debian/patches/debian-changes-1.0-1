@@ -1,0 +1,48 @@
+Description: Upstream changes introduced in version 1.0-1
+ This patch has been created by dpkg-source during the package build.
+ Here's the last changelog entry, hopefully it gives details on why
+ those changes were made:
+ .
+ elboukhari (1.0-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+ .
+ The person named in the Author field signed this changelog entry.
+Author: kovax kovastros <kovax3@gmail.com>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: http://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+
+--- elboukhari-1.0.orig/mainwindow.h
++++ elboukhari-1.0/mainwindow.h
+@@ -89,7 +89,7 @@ private:
+     QList<QString > m_listNass;
+     QList<QString > m_listFile;
+     bool animRuned;
+-/*
++
+ //setting
+     QString m_font;
+     QString m_mediaFolder;
+--- elboukhari-1.0.orig/AUTHORS
++++ elboukhari-1.0/AUTHORS
+@@ -1,7 +1,7 @@
+ Original authors
+ ----------------
+-abouzakaria <yahiaui@gmail.com>		original elboukhari
+-kovax <kovax3@gmail.com>	maintainer
++yahia abouzakaria <yahiaui@gmail.com>		original elboukhari
++kovax kovastros <kovax3@gmail.com>	maintainer
+ 			 
+ 
+ Maintainer

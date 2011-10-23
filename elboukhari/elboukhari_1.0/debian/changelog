@@ -1,0 +1,5 @@
+elboukhari (1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- kovax kovastros <kovax3@gmail.com>  Fri, 07 Oct 2011 09:01:52 +0100
