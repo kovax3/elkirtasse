@@ -1,0 +1,2956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindowClass</class>
+ <widget class="QMainWindow" name="MainWindowClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+<<<<<<< HEAD
+    <height>605</height>
+=======
+    <height>600</height>
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>مكتبة القرطاس</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="images.qrc">
+    <normaloff>:/images/image/groupbook.png</normaloff>:/images/image/groupbook.png</iconset>
+  </property>
+  <property name="styleSheet">
+<<<<<<< HEAD
+   <string notr="true">/*
+QToolBar {
+                        background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(255, 255, 255, 100), stop:0.431694 rgba(231, 231, 231, 100), stop:0.469945 rgba(183, 183, 183, 100), stop:1 rgba(255, 255, 255, 100));
+                          spacing: 3px;
+border-width: 0px;
+                         }
+*/
+</string>
+=======
+   <string notr="true">QToolBar {
+                        background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(255, 255, 255, 100), stop:0.431694 rgba(231, 231, 231, 100), stop:0.469945 rgba(183, 183, 183, 100), stop:1 rgba(255, 255, 255, 100));
+                          spacing: 3px;
+border-width: 0px;
+                         }</string>
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+  </property>
+  <property name="documentMode">
+   <bool>true</bool>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>true</bool>
+  </property>
+  <property name="dockOptions">
+   <set>QMainWindow::AllowNestedDocks|QMainWindow::AllowTabbedDocks|QMainWindow::AnimatedDocks|QMainWindow::ForceTabbedDocks|QMainWindow::VerticalTabs</set>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_13">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+<<<<<<< HEAD
+=======
+      <property name="tabPosition">
+       <enum>QTabWidget::North</enum>
+      </property>
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+      <property name="tabShape">
+       <enum>QTabWidget::Rounded</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <property name="tabsClosable">
+       <bool>false</bool>
+      </property>
+      <widget class="QWidget" name="tabIntro">
+       <attribute name="icon">
+        <iconset resource="images.qrc">
+         <normaloff>:/images/image/groupbook.png</normaloff>:/images/image/groupbook.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>مكتبة القرطاس</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_11">
+        <property name="spacing">
+         <number>3</number>
+        </property>
+        <property name="leftMargin">
+         <number>3</number>
+        </property>
+        <property name="topMargin">
+         <number>5</number>
+        </property>
+        <property name="rightMargin">
+         <number>3</number>
+        </property>
+        <property name="bottomMargin">
+         <number>3</number>
+        </property>
+        <item>
+         <widget class="QFrame" name="frame_5">
+          <property name="minimumSize">
+           <size>
+            <width>26</width>
+            <height>34</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::NoFrame</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_6">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="margin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QLineEdit" name="lineEdit">
+             <property name="maximumSize">
+              <size>
+               <width>10</width>
+               <height>16777215</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QStackedWidget" name="stackedWidget_intro">
+          <property name="currentIndex">
+           <number>1</number>
+          </property>
+          <widget class="QWidget" name="page_anim">
+           <layout class="QVBoxLayout" name="verticalLayout_10">
+            <property name="spacing">
+             <number>3</number>
+            </property>
+            <property name="margin">
+             <number>3</number>
+            </property>
+            <item>
+             <widget class="QFrame" name="frame_anim">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_7">
+               <property name="spacing">
+                <number>2</number>
+               </property>
+               <property name="margin">
+                <number>2</number>
+               </property>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="page_text">
+           <layout class="QVBoxLayout" name="verticalLayout_7">
+            <property name="spacing">
+             <number>3</number>
+            </property>
+            <property name="margin">
+             <number>3</number>
+            </property>
+            <item>
+             <widget class="QSplitter" name="splitter_3">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <widget class="QTextBrowser" name="textBrowser_0">
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+               <property name="textInteractionFlags">
+                <set>Qt::TextBrowserInteraction</set>
+               </property>
+               <property name="openExternalLinks">
+                <bool>false</bool>
+               </property>
+               <property name="openLinks">
+                <bool>false</bool>
+               </property>
+              </widget>
+              <widget class="QTreeWidget" name="treeWidget_rowatFind">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>160</height>
+                </size>
+               </property>
+               <attribute name="headerVisible">
+                <bool>false</bool>
+               </attribute>
+               <column>
+                <property name="text">
+                 <string notr="true">1</string>
+                </property>
+               </column>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widgetEditBook" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout_12">
+       <property name="spacing">
+        <number>3</number>
+       </property>
+       <property name="margin">
+        <number>3</number>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayoutBookEdit"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar">
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>25</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_fahras">
+   <property name="minimumSize">
+    <size>
+<<<<<<< HEAD
+     <width>189</width>
+=======
+     <width>185</width>
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+     <height>200</height>
+    </size>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>1</width>
+     <height>1</height>
+    </size>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>1</width>
+     <height>1</height>
+    </size>
+   </property>
+<<<<<<< HEAD
+=======
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   <property name="windowTitle">
+    <string>فهرسة الكتاب</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents">
+    <layout class="QVBoxLayout" name="verticalLayout_6">
+     <property name="spacing">
+      <number>9</number>
+     </property>
+     <property name="margin">
+      <number>6</number>
+     </property>
+     <item>
+      <widget class="QFrame" name="frameEdit">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>120</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Panel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <property name="spacing">
+         <number>3</number>
+        </property>
+        <property name="leftMargin">
+         <number>3</number>
+        </property>
+        <property name="topMargin">
+         <number>3</number>
+        </property>
+        <property name="rightMargin">
+         <number>3</number>
+        </property>
+        <property name="bottomMargin">
+         <number>6</number>
+        </property>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <property name="leftMargin">
+           <number>5</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="text">
+             <string>تحرير الكتاب</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButtonEditClose">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>18</width>
+              <height>18</height>
+             </size>
+            </property>
+            <property name="sizeIncrement">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="baseSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>غلق نافذة التحرير</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="images.qrc">
+              <normaloff>:/images/image/edit-delete.png</normaloff>:/images/image/edit-delete.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>16</width>
+              <height>16</height>
+             </size>
+            </property>
+            <property name="default">
+             <bool>false</bool>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="0">
+           <widget class="QCheckBox" name="checkBoxNumber">
+            <property name="whatsThis">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Microsoft Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;table style=&quot;-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;&quot;&gt;
+&lt;tr&gt;
+&lt;td style=&quot;border: none;&quot;&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;عند تعليم هذا الخيار سيتم البحث عن كل عنوان يبدأ برقم ثم النص المدخل في مربع النص&lt;/p&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;اذا ترك مربع النص فارغا فسيتم البحث عن العناوين التي تبدأ برقم فقط&lt;/p&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;ثم توضع في المستوى الاول&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="text">
+             <string>يبدأ برقم</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QCheckBox" name="checkBoxNumber2">
+            <property name="whatsThis">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Microsoft Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;table style=&quot;-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;&quot;&gt;
+&lt;tr&gt;
+&lt;td style=&quot;border: none;&quot;&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;عند تعليم هذا الخيار سيتم البحث عن كل عنوان يبدأ برقم ثم النص المدخل في مربع النص&lt;/p&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;اذا ترك مربع النص فارغا فسيتم البحث عن العناوين التي تبدأ برقم فقط&lt;/p&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;ثم توضع في المستوى الثاني&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="text">
+             <string>يبدأ برقم</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLineEdit" name="lineEditNiveau1">
+            <property name="toolTip">
+             <string>نص المستوى الاول</string>
+            </property>
+            <property name="whatsThis">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Microsoft Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;table style=&quot;-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;&quot;&gt;
+&lt;tr&gt;
+&lt;td style=&quot;border: none;&quot;&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;هنا يوضع النص الذي يتم البحث عنه في العناوين على المستوى الاول&lt;/p&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;هذا الخيار اجباري في حالة عدم تعيين خيار البداية برقم&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEditNiveau2">
+            <property name="toolTip">
+             <string>نص المستوى الثاني</string>
+            </property>
+            <property name="whatsThis">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Microsoft Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;table style=&quot;-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;&quot;&gt;
+&lt;tr&gt;
+&lt;td style=&quot;border: none;&quot;&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;هنا يوضع النص الذي يتم البحث عنه في العناوين على المستوى الثاني&lt;/p&gt;
+&lt;p align=&quot;right&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QPushButton" name="btnGoFindFah">
+            <property name="minimumSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="sizeIncrement">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="baseSize">
+             <size>
+              <width>25</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>تنفيذ البحث عن فهارس للكتاب</string>
+            </property>
+            <property name="whatsThis">
+             <string>تنفيذ عملية البحث عن العناوين</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"> QPushButton:hover  {
+     border: 1px solid #8f8f91;
+     border-radius: 5px;
+ }
+</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="images.qrc">
+              <normaloff>:/images/image/arrow-left.png</normaloff>:/images/image/arrow-left.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>22</width>
+              <height>22</height>
+             </size>
+            </property>
+            <property name="default">
+             <bool>false</bool>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <property name="spacing">
+           <number>3</number>
+          </property>
+          <property name="margin">
+           <number>3</number>
+          </property>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayoutFahras">
+       <property name="spacing">
+        <number>3</number>
+       </property>
+       <property name="margin">
+        <number>3</number>
+       </property>
+      </layout>
+     </item>
+     <item>
+      <widget class="QStackedWidget" name="stackedWidget">
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="pageIntro"/>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_books">
+   <property name="minimumSize">
+    <size>
+<<<<<<< HEAD
+     <width>141</width>
+     <height>76</height>
+=======
+     <width>135</width>
+     <height>72</height>
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+    </size>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>1</width>
+     <height>1</height>
+    </size>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>1</width>
+     <height>1</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="windowTitle">
+    <string>الكتب</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_2">
+    <layout class="QVBoxLayout" name="verticalLayout_9">
+     <item>
+      <widget class="QComboBox" name="comboBox_rowat">
+       <property name="whatsThis">
+        <string>التغييربين قائمة الكتب ورواة التهذيبين</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>قائمة الكتب</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>تراجم رواة التهذيبين</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QStackedWidget" name="stackedWidget_books">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="page">
+        <layout class="QVBoxLayout" name="verticalLayout_8">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayoutBook"/>
+         </item>
+         <item>
+          <widget class="QSplitter" name="splitter">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <widget class="QTreeWidget" name="treeWidget_books">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="contextMenuPolicy">
+             <enum>Qt::CustomContextMenu</enum>
+            </property>
+            <property name="whatsThis">
+             <string>هذه قائمة الكتب يمكنك تفعيلها بالنقر مرتين او التنقل بواسطة لوحة مفاتيح
+كما يمكنك النقر على اي عنصر باليمين لعرض قائمة بالاوامر الخاصة بالعنصر المحدد
+مثل تحرير الكتاب او حذفه او معرفة مساره او فتحه</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="alternatingRowColors">
+             <bool>true</bool>
+            </property>
+            <property name="uniformRowHeights">
+             <bool>true</bool>
+            </property>
+            <property name="sortingEnabled">
+             <bool>true</bool>
+            </property>
+            <property name="animated">
+             <bool>false</bool>
+            </property>
+            <attribute name="headerVisible">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="headerCascadingSectionResizes">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="headerDefaultSectionSize">
+             <number>150</number>
+            </attribute>
+            <attribute name="headerHighlightSections">
+             <bool>true</bool>
+            </attribute>
+            <attribute name="headerMinimumSectionSize">
+             <number>60</number>
+            </attribute>
+            <attribute name="headerShowSortIndicator" stdset="0">
+             <bool>true</bool>
+            </attribute>
+            <attribute name="headerStretchLastSection">
+             <bool>true</bool>
+            </attribute>
+            <column>
+             <property name="text">
+              <string>اسم الكتاب</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>المؤلف</string>
+             </property>
+            </column>
+           </widget>
+           <widget class="QTextEdit" name="textEditInfoBook">
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Microsoft Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;حدد كتابا من الشجرة لعرض معلومات عنه&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/images/image/groupbook.png&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_2">
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QLineEdit" name="lineEdit_FindRowat">
+             <property name="whatsThis">
+              <string>ادخل هنا اسم الراوي او كنيته ليتم فلترة القائمة</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btnRowaInfo">
+             <property name="minimumSize">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="sizeIncrement">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="baseSize">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="toolTip">
+              <string>رموز كتب السنة</string>
+             </property>
+             <property name="whatsThis">
+              <string> معلومات عن رموز كتب السنة الواردة في التراجم</string>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"> QPushButton:hover  {
+     border: 1px solid #8f8f91;
+     border-radius: 5px;
+ }
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="images.qrc">
+               <normaloff>:/images/image/edit-delete.png</normaloff>:/images/image/edit-delete.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>22</width>
+               <height>22</height>
+              </size>
+             </property>
+             <property name="default">
+              <bool>false</bool>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btnClearTree">
+             <property name="minimumSize">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="sizeIncrement">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="baseSize">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+             <property name="toolTip">
+              <string>مسح قائمة تتبع الرواة</string>
+             </property>
+             <property name="whatsThis">
+              <string>مسح قائمة الرواة الذين تم فتحهم من قبل</string>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"> QPushButton:hover  {
+     border: 1px solid #8f8f91;
+     border-radius: 5px;
+ }
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="images.qrc">
+               <normaloff>:/images/image/edit-delete.png</normaloff>:/images/image/edit-delete.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>22</width>
+               <height>22</height>
+              </size>
+             </property>
+             <property name="default">
+              <bool>false</bool>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QSplitter" name="splitter_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <widget class="QTreeWidget" name="treeWidget_rowat">
+            <property name="whatsThis">
+             <string>قائمة بأسماء الرواة المترجم لهم في التهذيبين</string>
+            </property>
+            <column>
+             <property name="text">
+              <string notr="true">أسماء الرواة</string>
+             </property>
+            </column>
+           </widget>
+           <widget class="QTreeWidget" name="treeWidget_rowatTabia">
+            <property name="toolTip">
+             <string/>
+            </property>
+            <property name="whatsThis">
+             <string>هنا يمكنك تتبع الرواة الذين تمت مطالعة تراجمهم</string>
+            </property>
+            <column>
+             <property name="text">
+              <string>تتبع الرواة</string>
+             </property>
+            </column>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_curaan">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+<<<<<<< HEAD
+     <width>229</width>
+=======
+     <width>185</width>
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+     <height>224</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="windowTitle">
+    <string>القرءان الكريم</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_3">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QFrame" name="frame_2">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Panel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <property name="margin">
+         <number>2</number>
+        </property>
+        <property name="spacing">
+         <number>2</number>
+        </property>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>55</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>التفاسير :</string>
+          </property>
+          <property name="buddy">
+           <cstring>comboBox_tafasir</cstring>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QComboBox" name="comboBox_tafasir">
+          <property name="whatsThis">
+           <string>قائمة بكتب التفسير المفهرسة التي يمكن التنقل فيها حسب الفهرسة ادناه</string>
+          </property>
+          <property name="sizeAdjustPolicy">
+           <enum>QComboBox::AdjustToMinimumContentsLength</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>55</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>الفهرسة :</string>
+          </property>
+          <property name="buddy">
+           <cstring>comboBox</cstring>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QComboBox" name="comboBox">
+          <property name="whatsThis">
+           <string>التبديل بين عرض قائمة باسماء السور والايات او الارباع والاحزاب والاجزاء</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>حسب الأجزاء</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>حسب السور</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QPushButton" name="pushButton_gotafsir">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="toolTip">
+           <string>فتح التفسير المحدد</string>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"> QPushButton:hover  {
+     border: 1px solid #8f8f91;
+     border-radius: 5px;
+ }
+
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset resource="images.qrc">
+            <normaloff>:/images/image/arrow-left.png</normaloff>:/images/image/arrow-left.png</iconset>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLineEdit" name="lineEdit_find_cur">
+          <property name="whatsThis">
+           <string>ادخل نص البحث للبحث عن اية او سورة ثم انقر على زر التنفيذ</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QPushButton" name="pushButton_gofind">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>25</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="toolTip">
+           <string>تنفيذ البحث</string>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"> QPushButton:hover  {
+     border: 1px solid #8f8f91;
+     border-radius: 5px;
+ }
+
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset resource="images.qrc">
+            <normaloff>:/images/image/arrow-left.png</normaloff>:/images/image/arrow-left.png</iconset>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_3">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>55</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>بحث :</string>
+          </property>
+          <property name="buddy">
+           <cstring>lineEdit_find_cur</cstring>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTreeWidget" name="treeWidget_curaan">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="whatsThis">
+        <string>فهرسة الايات والسور اذ لا يمكن تفعيلها الا اذا كان كتاب للتفسير مفهرس مفتوحا مسبقا
+تجد قائمة للتفلسير المفهرة في القائمة المنسدلة اعلاه</string>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::SelectedClicked</set>
+       </property>
+       <property name="alternatingRowColors">
+        <bool>true</bool>
+       </property>
+       <property name="animated">
+        <bool>true</bool>
+       </property>
+       <column>
+        <property name="text">
+         <string>السور</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+<<<<<<< HEAD
+=======
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="windowTitle">
+    <string>ازرارقياسية</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>22</width>
+     <height>22</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionOption"/>
+   <addaction name="action_fulscreen"/>
+   <addaction name="actionRemoveTechkil"/>
+   <addaction name="separator"/>
+   <addaction name="action_favorit"/>
+   <addaction name="actionHiperlink"/>
+   <addaction name="action_edit"/>
+   <addaction name="separator"/>
+   <addaction name="actionFind_all"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_navegator">
+   <property name="windowTitle">
+    <string>التنقل بين السجلات</string>
+   </property>
+   <property name="styleSheet">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>22</width>
+     <height>22</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_first"/>
+   <addaction name="action_prev"/>
+   <addaction name="separator"/>
+   <addaction name="actionGotoPage"/>
+   <addaction name="separator"/>
+   <addaction name="action_next"/>
+   <addaction name="action_last"/>
+   <addaction name="separator"/>
+   <addaction name="actionBookInfo"/>
+  </widget>
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+  <widget class="QDockWidget" name="dockWidget_find">
+   <property name="minimumSize">
+    <size>
+     <width>98</width>
+     <height>122</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="features">
+    <set>QDockWidget::DockWidgetClosable</set>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::BottomDockWidgetArea</set>
+   </property>
+   <property name="windowTitle">
+    <string>نتائج البحث</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>8</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_8">
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <property name="spacing">
+      <number>2</number>
+     </property>
+     <property name="margin">
+      <number>2</number>
+     </property>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayoutFind"/>
+     </item>
+     <item>
+      <widget class="QTreeWidget" name="treeWidgetFind">
+       <property name="whatsThis">
+        <string>قائمة بنتائج البحث التي قمت بتفعيلها
+يمكنك حفظها الى ملف كما يمكنك استعادتها
+يمكنك تفعيل العنصر بالنقر عليه مرتين</string>
+       </property>
+       <column>
+        <property name="text">
+         <string>النص</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>الجزء</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>الصفحة</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>الكتاب</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>المؤلف</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>ترقيم</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_favorite">
+   <property name="minimumSize">
+    <size>
+<<<<<<< HEAD
+     <width>79</width>
+=======
+     <width>76</width>
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+     <height>140</height>
+    </size>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>1</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="windowTitle">
+    <string>المفضلة</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_4">
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayoutFavo"/>
+     </item>
+     <item>
+      <widget class="QTreeWidget" name="treeWidget_fav">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Ignored" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="contextMenuPolicy">
+        <enum>Qt::CustomContextMenu</enum>
+       </property>
+       <property name="whatsThis">
+        <string>المفضلة تتيح لك حفظ صفحاتك المفضلة للرجوع اليها لاحقا
+كما يمكنك تحريرها ووضع الصفحات في مجلدات خاصة</string>
+       </property>
+       <property name="dragEnabled">
+        <bool>true</bool>
+       </property>
+       <property name="dragDropOverwriteMode">
+        <bool>true</bool>
+       </property>
+       <property name="dragDropMode">
+        <enum>QAbstractItemView::InternalMove</enum>
+       </property>
+       <property name="alternatingRowColors">
+        <bool>true</bool>
+       </property>
+       <property name="selectionBehavior">
+        <enum>QAbstractItemView::SelectRows</enum>
+       </property>
+       <attribute name="headerVisible">
+        <bool>false</bool>
+       </attribute>
+       <column>
+        <property name="text">
+         <string>الموضوع</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>الكتاب</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>المؤلف</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="toolBarAnim">
+   <property name="maximumSize">
+    <size>
+     <width>16777213</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::NoContextMenu</enum>
+   </property>
+   <property name="windowTitle">
+    <string>تحرير الكتاب</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QToolButton:checked {
+	
+ border: 0px solid #8f8f91;
+     border-radius: 0px;
+     background-color: ;
+
+ }
+
+</string>
+   </property>
+   <property name="movable">
+    <bool>true</bool>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>24</width>
+     <height>24</height>
+    </size>
+   </property>
+   <property name="floatable">
+    <bool>true</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+<<<<<<< HEAD
+   <addaction name="actionPageIntro"/>
+=======
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   <addaction name="actionAnimGroup"/>
+   <addaction name="actionAnimHistorie"/>
+   <addaction name="separator"/>
+   <addaction name="actionTreeD"/>
+  </widget>
+  <widget class="QToolBar" name="toolBarEditBook">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>18</width>
+     <height>18</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>true</bool>
+   </attribute>
+   <addaction name="actionItemFahUp"/>
+   <addaction name="actionItemDown"/>
+   <addaction name="actionItemFahRen"/>
+   <addaction name="separator"/>
+   <addaction name="actionItemFahDelet"/>
+   <addaction name="separator"/>
+   <addaction name="actionSaveEdit"/>
+  </widget>
+  <widget class="QToolBar" name="toolBarBooks">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QToolButton:checked {
+	
+ border: 0px solid #8f8f91;
+     border-radius: 0px;
+     background-color: ;
+}</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>18</width>
+     <height>18</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionFindBkOrHt"/>
+   <addaction name="actionControle"/>
+   <addaction name="separator"/>
+   <addaction name="actionBookExpAll"/>
+   <addaction name="actionBookColpAll"/>
+  </widget>
+  <widget class="QToolBar" name="toolBarFavo">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>16</width>
+     <height>16</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionFavSave"/>
+   <addaction name="separator"/>
+   <addaction name="actionFavDelete"/>
+   <addaction name="separator"/>
+   <addaction name="actionFavItemUp"/>
+   <addaction name="actionFavItemDown"/>
+   <addaction name="actionFavItemRen"/>
+  </widget>
+  <widget class="QToolBar" name="toolBarFind">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>16</width>
+     <height>16</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionFindItemUp"/>
+   <addaction name="actionFindItemDown"/>
+   <addaction name="separator"/>
+   <addaction name="actionFindDelete"/>
+   <addaction name="separator"/>
+   <addaction name="actionFindSave"/>
+   <addaction name="actionFindLoad"/>
+   <addaction name="separator"/>
+   <addaction name="action_stopFind"/>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>&amp;تحرير</string>
+    </property>
+<<<<<<< HEAD
+    <addaction name="action_edit"/>
+    <addaction name="action_favorit"/>
+    <addaction name="actionHiperlink"/>
+    <addaction name="actionRemoveTechkil"/>
+    <addaction name="separator"/>
+    <addaction name="action_first"/>
+    <addaction name="action_prev"/>
+    <addaction name="actionGotoPage"/>
+    <addaction name="action_next"/>
+    <addaction name="action_last"/>
+    <addaction name="separator"/>
+    <addaction name="actionBookInfo"/>
+    <addaction name="actionFind_all"/>
+=======
+    <addaction name="action_first"/>
+    <addaction name="action_next"/>
+    <addaction name="action_prev"/>
+    <addaction name="action_last"/>
+    <addaction name="actionGotoPage"/>
+    <addaction name="separator"/>
+    <addaction name="actionFind_all"/>
+    <addaction name="separator"/>
+    <addaction name="action_edit"/>
+    <addaction name="action_favorit"/>
+    <addaction name="actionHiperlink"/>
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>التع&amp;ليمات</string>
+    </property>
+    <addaction name="action_about"/>
+    <addaction name="actionHelp"/>
+    <addaction name="actionWhatsThis"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>&amp;عرض</string>
+    </property>
+    <widget class="QMenu" name="menuDockTooBar">
+     <property name="title">
+      <string>النوافذ و اشرطة الادوات</string>
+     </property>
+    </widget>
+    <addaction name="action_fulscreen"/>
+    <addaction name="actionOption"/>
+<<<<<<< HEAD
+    <addaction name="actionControle"/>
+    <addaction name="menuDockTooBar"/>
+    <addaction name="separator"/>
+=======
+    <addaction name="actionRemoveTechkil"/>
+    <addaction name="actionControle"/>
+    <addaction name="menuDockTooBar"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionPageIntro"/>
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+    <addaction name="actionZoumIn"/>
+    <addaction name="actionZoomOut"/>
+   </widget>
+   <widget class="QMenu" name="menu_file">
+    <property name="contextMenuPolicy">
+     <enum>Qt::DefaultContextMenu</enum>
+    </property>
+    <property name="title">
+     <string>&amp;ملف</string>
+    </property>
+    <widget class="QMenu" name="menuRecent">
+     <property name="whatsThis">
+      <string>يعرض الكتب السابقة التي تم فتحها في نفس الصفحة والجزء الذي تمت مطالعته مؤخرا</string>
+     </property>
+     <property name="title">
+      <string>الكتب السابقة</string>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/images/image/recent.png</normaloff>:/images/image/recent.png</iconset>
+     </property>
+     <addaction name="separator"/>
+    </widget>
+    <addaction name="action_import"/>
+    <addaction name="actionMdb"/>
+    <addaction name="action_addBoook"/>
+    <addaction name="actionCreatNewBook"/>
+    <addaction name="actionExport"/>
+    <addaction name="actionArchive"/>
+<<<<<<< HEAD
+=======
+    <addaction name="actionBookInfo"/>
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+    <addaction name="separator"/>
+    <addaction name="actionNewTab"/>
+    <addaction name="separator"/>
+    <addaction name="actionPrintPreview"/>
+    <addaction name="actionPrint"/>
+    <addaction name="separator"/>
+    <addaction name="menuRecent"/>
+    <addaction name="separator"/>
+    <addaction name="action_close"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>ادوات</string>
+    </property>
+    <addaction name="actionDownloadBooks"/>
+    <addaction name="actionShamilaCdrom"/>
+    <addaction name="separator"/>
+    <addaction name="actionOrganizeFahrasse"/>
+    <addaction name="separator"/>
+    <addaction name="actionUpdatGroup"/>
+    <addaction name="actionUpdatGroupRemove"/>
+    <addaction name="actionDvd"/>
+<<<<<<< HEAD
+    <addaction name="separator"/>
+    <addaction name="actionCostumActions"/>
+=======
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   </widget>
+   <addaction name="menu_file"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuView"/>
+   <addaction name="menuTools"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QToolBar" name="toolBarEditBook_2">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextBesideIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionFahAddChild"/>
+   <addaction name="actionFahAddItem"/>
+   <addaction name="separator"/>
+   <addaction name="actionNewPageAfter"/>
+   <addaction name="actionNewPageBefor"/>
+   <addaction name="actionRemovePage"/>
+   <addaction name="separator"/>
+   <addaction name="actionFontCostum"/>
+  </widget>
+  <action name="action_first">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/go-first.png</normaloff>:/images/image/go-first.png</iconset>
+   </property>
+   <property name="text">
+    <string>الصفحة الأولى</string>
+   </property>
+   <property name="whatsThis">
+    <string>الانتقال الى الصفحة الاولى</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Up</string>
+   </property>
+  </action>
+  <action name="action_next">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/go-next.png</normaloff>:/images/image/go-next.png</iconset>
+   </property>
+   <property name="text">
+    <string>الصفحة التالية</string>
+   </property>
+   <property name="statusTip">
+    <string>الانتقال الى الصفحة التالية</string>
+   </property>
+   <property name="whatsThis">
+    <string>الانتقال الى الصفحة التالية
+</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Left</string>
+   </property>
+  </action>
+  <action name="action_prev">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/go-back.png</normaloff>:/images/image/go-back.png</iconset>
+   </property>
+   <property name="text">
+    <string>الصفحة السابقة</string>
+   </property>
+   <property name="statusTip">
+    <string>الانتقال الى الصفحة السابقة</string>
+   </property>
+   <property name="whatsThis">
+    <string>الانتقال الى الصفحة السابقة</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Right</string>
+   </property>
+  </action>
+  <action name="action_last">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/go-last.png</normaloff>:/images/image/go-last.png</iconset>
+   </property>
+   <property name="text">
+    <string>الصفحة الأخيرة</string>
+   </property>
+   <property name="statusTip">
+    <string>الانتقال الى الصفحة الاخيرة</string>
+   </property>
+   <property name="whatsThis">
+    <string>الانتقال الى الصفحة الاخيرة</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Down</string>
+   </property>
+  </action>
+  <action name="action_about">
+<<<<<<< HEAD
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/help-about.png</normaloff>:/images/image/help-about.png</iconset>
+   </property>
+=======
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   <property name="text">
+    <string>حول البرنامج</string>
+   </property>
+   <property name="statusTip">
+    <string>حول البرنامج</string>
+   </property>
+  </action>
+  <action name="action_addBoook">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/address-book-new.png</normaloff>:/images/image/address-book-new.png</iconset>
+   </property>
+   <property name="text">
+    <string>اضافة كتب</string>
+   </property>
+   <property name="statusTip">
+    <string>اضافة كتب جديدة</string>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;table border=&quot;0&quot; style=&quot;-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;&quot;&gt;
+&lt;tr&gt;
+&lt;td style=&quot;border: none;&quot;&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Microsoft Sans Serif'; font-size:9pt;&quot;&gt;يفتح لك نافذة لاضافة كتب الى المكتبة&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Microsoft Sans Serif'; font-size:9pt;&quot;&gt;يمكنك اضافة ملفات المكتبة المضغوطة بصيغة&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Microsoft Sans Serif'; font-size:9pt;&quot;&gt;tar.gz او krts&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Microsoft Sans Serif'; font-size:9pt;&quot;&gt;او مجلدات المكتبة التي تحتوي ملفات المكتبة &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+A</string>
+   </property>
+  </action>
+  <action name="action_fulscreen">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/view-fullscreen.png</normaloff>:/images/image/view-fullscreen.png</iconset>
+   </property>
+   <property name="text">
+    <string>ملأ الشاشة</string>
+   </property>
+   <property name="toolTip">
+    <string>عرض ملأ الشاشة</string>
+   </property>
+   <property name="statusTip">
+    <string>عرض ملأ الشاشة</string>
+   </property>
+   <property name="whatsThis">
+    <string>عرض ملا الشاشة</string>
+   </property>
+   <property name="shortcut">
+    <string>F11</string>
+   </property>
+  </action>
+  <action name="actionFind_all">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/findbook.png</normaloff>:/images/image/findbook.png</iconset>
+   </property>
+   <property name="text">
+    <string>بحث متقدم</string>
+   </property>
+   <property name="toolTip">
+    <string>بحث متعدد الخيارات</string>
+   </property>
+   <property name="statusTip">
+    <string>يفتح لك نافذة تمكنك من خيارات البحث في الكتب مع خيارات كثيرة </string>
+   </property>
+   <property name="whatsThis">
+    <string>يفتح لك نافذة تمكنك من خيارات البحث في الكتب مع خيارات كثيرة </string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+  </action>
+  <action name="action_import">
+   <property name="icon">
+    <iconset resource="images.qrc">
+<<<<<<< HEAD
+     <normaloff>:/images/image/importTxt.png</normaloff>:/images/image/importTxt.png</iconset>
+=======
+     <normaloff>:/images/image/address-book-new.png</normaloff>:/images/image/address-book-new.png</iconset>
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   </property>
+   <property name="text">
+    <string>استيراد ملفات نصية</string>
+   </property>
+   <property name="statusTip">
+    <string>يفتح نافذة بواسطتها يمكنك من استراد ملفات نصية بصيغة\nhtml\nمع خيارات متنوعة ثم تحويلها الى ملفات المكتبة</string>
+   </property>
+   <property name="whatsThis">
+    <string>يفتح نافذة بواسطتها يمكنك من استراد ملفات نصية بصيغة
+html
+مع خيارات متنوعة ثم تحويلها الى ملفات المكتبة</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+T</string>
+   </property>
+  </action>
+  <action name="action_close">
+<<<<<<< HEAD
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/quit.png</normaloff>:/images/image/quit.png</iconset>
+   </property>
+=======
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   <property name="text">
+    <string>خروج</string>
+   </property>
+   <property name="statusTip">
+    <string>خروج من البرنامج</string>
+   </property>
+  </action>
+  <action name="action_edit">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/bookEdit.png</normaloff>:/images/image/bookEdit.png</iconset>
+   </property>
+   <property name="text">
+    <string>تحرير الكتاب</string>
+   </property>
+   <property name="statusTip">
+    <string>يمكنك تحرير الكتاب والفهرسة \nمع المطابة بالحفظ عند غلق الكتاب</string>
+   </property>
+   <property name="whatsThis">
+    <string>يمكنك تحرير الكتاب والفهرسة 
+مع المطابة بالحفظ عند غلق الكتاب</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="action_favorit">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/bookmark-new.png</normaloff>:/images/image/bookmark-new.png</iconset>
+   </property>
+   <property name="text">
+    <string>اضافة للمفضلة</string>
+   </property>
+   <property name="statusTip">
+    <string>هذا الخيار يضيف الصفحة الحالية الى المفضلة</string>
+   </property>
+   <property name="whatsThis">
+    <string>هذا الخيار يضيف الصفحة الحالية الى المفضلة</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+W</string>
+   </property>
+  </action>
+  <action name="actionMdb">
+   <property name="icon">
+    <iconset resource="images.qrc">
+<<<<<<< HEAD
+     <normaloff>:/images/image/import-Shamila.png</normaloff>:/images/image/import-Shamila.png</iconset>
+=======
+     <normaloff>:/images/image/address-book-new.png</normaloff>:/images/image/address-book-new.png</iconset>
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   </property>
+   <property name="text">
+    <string>استيراد ملفات المكتبة الشاملة</string>
+   </property>
+   <property name="statusTip">
+    <string>يفتح لك نافذة تمكنك من استراد ملفات الشاملة سواء بصيغة\nbok او mdb\nملاحظة : في لنكس يجب ان تثبت برنامج\mdbtools</string>
+   </property>
+   <property name="whatsThis">
+    <string>يفتح لك نافذة تمكنك من استراد ملفات الشاملة سواء بصيغة
+bok او mdb
+ملاحظة : في لنكس يجب ان تثبت برنامج
+mdbtools</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+H</string>
+   </property>
+  </action>
+  <action name="actionOption">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/config-background.png</normaloff>:/images/image/config-background.png</iconset>
+   </property>
+   <property name="text">
+    <string>خيارات</string>
+   </property>
+   <property name="toolTip">
+    <string>خيارات</string>
+   </property>
+   <property name="statusTip">
+    <string>يفتح خيارات البرنامج لتغيير الكثير من خصائص البرنامج\nمثل الخط ومظهر النص ومسار الكتب</string>
+   </property>
+   <property name="whatsThis">
+    <string>يفتح خيارات البرنامج لتغيير الكثير من خصائص البرنامج
+مثل الخط ومظهر النص ومسار الكتب</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionHiperlink">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/insert-link.png</normaloff>:/images/image/insert-link.png</iconset>
+   </property>
+   <property name="text">
+    <string>إرتباط الصفحة</string>
+   </property>
+   <property name="toolTip">
+    <string>ارتباط تشعبي مع صفحة أخرى</string>
+   </property>
+   <property name="statusTip">
+    <string>ارتباط تشعبي مع صفحة أخرى</string>
+   </property>
+   <property name="whatsThis">
+    <string>هذا الخيار يفتح معالج يعينك على انشاء ارتباط تشعبي للنص المحدد مع كتاب اخر او صفحة اضيفت الى المفضلة
+مثل الارتباطات الموجودة في صفحات الويب</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+K</string>
+   </property>
+  </action>
+  <action name="actionNewTab">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/tab-new.png</normaloff>:/images/image/tab-new.png</iconset>
+   </property>
+   <property name="text">
+    <string>لسان جديد</string>
+   </property>
+   <property name="statusTip">
+    <string>فتح لسان جديد بحيث يمكنك اضافة كتاب اليه دون غلق الكتاب المفتوح</string>
+   </property>
+   <property name="whatsThis">
+    <string>فتح لسان جديد بحيث يمكنك اضافة كتاب اليه دون غلق الكتاب المفتوح</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionExport">
+<<<<<<< HEAD
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/exportBook.png</normaloff>:/images/image/exportBook.png</iconset>
+   </property>
+=======
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   <property name="text">
+    <string>تصديرالكتاب الى ملف</string>
+   </property>
+   <property name="statusTip">
+    <string>يفتح لك نافذة تمكنك من تصدير الكتاب الحالى الى عدة صيغ\npdf , odf ,html</string>
+   </property>
+   <property name="whatsThis">
+    <string>يفتح لك نافذة تمكنك من تصدير الكتاب الحالى الى عدة صيغ
+pdf , odf ,html</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Alt+X</string>
+   </property>
+  </action>
+  <action name="actionPrintPreview">
+<<<<<<< HEAD
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/printerPreview.png</normaloff>:/images/image/printerPreview.png</iconset>
+   </property>
+=======
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   <property name="text">
+    <string>معاينة قبل الطباعة</string>
+   </property>
+   <property name="statusTip">
+    <string>معاينة الصفحة الحالية قبل الطباعة</string>
+   </property>
+   <property name="whatsThis">
+    <string>معاينة الصفحة الحالية قبل الطباعة</string>
+   </property>
+  </action>
+  <action name="actionPrint">
+<<<<<<< HEAD
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/printer.png</normaloff>:/images/image/printer.png</iconset>
+   </property>
+=======
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   <property name="text">
+    <string>طباعة الصفحة</string>
+   </property>
+   <property name="statusTip">
+    <string>طباعة الصفحة</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+  </action>
+  <action name="actionRemoveTechkil">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/techkil.png</normaloff>:/images/image/techkil.png</iconset>
+   </property>
+   <property name="text">
+    <string>اخفاء التشكيل</string>
+   </property>
+   <property name="statusTip">
+    <string>عند تفعيل هذا الزر سيختفي التشكيل من النصوص ان كنت لا تحبذ التشكيل</string>
+   </property>
+   <property name="whatsThis">
+    <string>عند تفعيل هذا الزر سيختفي التشكيل من النصوص ان كنت لا تحبذ التشكيل</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+K</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+<<<<<<< HEAD
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/help-contents.png</normaloff>:/images/image/help-contents.png</iconset>
+   </property>
+=======
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   <property name="text">
+    <string>التعليمات</string>
+   </property>
+   <property name="statusTip">
+    <string>التعليمات</string>
+   </property>
+   <property name="shortcut">
+    <string>F1</string>
+   </property>
+  </action>
+  <action name="actionOrganizeFahrasse">
+<<<<<<< HEAD
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/fahrasa-exact.png</normaloff>:/images/image/fahrasa-exact.png</iconset>
+   </property>
+=======
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   <property name="text">
+    <string>ضبط روابط الفهرسة الحالية</string>
+   </property>
+   <property name="statusTip">
+    <string>يمكنك ضبط روابط الفهرسة اذا لاحظت ان الروابط لا تفتح في نفس العنوان ثم احفظ الفهرس عند مطالبتك بذلك</string>
+   </property>
+   <property name="whatsThis">
+    <string>يمكنك ضبط روابط الفهرسة اذا لاحظت ان الروابط لا تفتح في نفس العنوان ثم احفظ الفهرس عند مطالبتك بذلك</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+U</string>
+   </property>
+  </action>
+  <action name="actionGotoPage">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/go-page.png</normaloff>:/images/image/go-page.png</iconset>
+   </property>
+   <property name="text">
+    <string>التنقل الى صفحة معينة</string>
+   </property>
+   <property name="toolTip">
+    <string>التنقل الى صفحة معينة Ctrl+G</string>
+   </property>
+   <property name="statusTip">
+    <string>للانتقال الى صفحة او جزء معين او موضع في الكتاب\nاذا كانت الصفحة او الجزء غير موجود فسيعرض لك رسالة تعلمك بعدم وجوده</string>
+   </property>
+   <property name="whatsThis">
+    <string>للانتقال الى صفحة او جزء معين او موضع في الكتاب
+اذا كانت الصفحة او الجزء غير موجود فسيعرض لك رسالة تعلمك بعدم وجوده</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actionPageIntro">
+<<<<<<< HEAD
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/gohome.png</normaloff>:/images/image/gohome.png</iconset>
+   </property>
+=======
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   <property name="text">
+    <string>صفحة البداية</string>
+   </property>
+   <property name="statusTip">
+    <string>صفحة البداية</string>
+   </property>
+  </action>
+  <action name="actionAnimGroup">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/listanim.png</normaloff>:/images/image/listanim.png</iconset>
+   </property>
+   <property name="text">
+    <string>قائمة الكتب</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Microsoft Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;table style=&quot;-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;&quot;&gt;
+&lt;tr&gt;
+&lt;td style=&quot;border: none;&quot;&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:600;&quot;&gt;قائمة المجموعات&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt;&quot;&gt;يعرض قائمة بمجموعة الكتب&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt;&quot;&gt;Ctrl+L&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="statusTip">
+    <string>يعرض قائمة بمجموعة الكتب بمؤثرات حركية\nثم اختر الكتاب المرجو قراءته </string>
+   </property>
+   <property name="whatsThis">
+    <string>يعرض قائمة بمجموعة الكتب بمؤثرات حركية
+ثم اختر الكتاب المرجو قراءته </string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+L</string>
+   </property>
+  </action>
+  <action name="actionAnimHistorie">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/recent.png</normaloff>:/images/image/recent.png</iconset>
+   </property>
+   <property name="text">
+    <string>الكتب السابقة</string>
+   </property>
+   <property name="toolTip">
+    <string>الكتب السابقة Ctrl+R</string>
+   </property>
+   <property name="statusTip">
+    <string>يعرض الكتب المفتوحة سابقا بمؤثرات حركية</string>
+   </property>
+   <property name="whatsThis">
+    <string>يعرض الكتب المفتوحة سابقا بمؤثرات حركية</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+  </action>
+  <action name="actionTreeD">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/telled.png</normaloff>
+     <activeon>:/images/image/threeD.png</activeon>
+     <selectedoff>:/images/image/telled.png</selectedoff>
+     <selectedon>:/images/image/threeD.png</selectedon>:/images/image/telled.png</iconset>
+   </property>
+   <property name="text">
+    <string>تبديل العرض</string>
+   </property>
+   <property name="toolTip">
+    <string>تبديل بين عرض المصغرات والتتالي Ctrl+T</string>
+   </property>
+   <property name="statusTip">
+    <string>تغيير شكل المؤثرات الحركية بين عرض الايقونات وعرض التتابع</string>
+   </property>
+   <property name="whatsThis">
+    <string>تغيير شكل المؤثرات الحركية بين عرض الايقونات وعرض التتابع</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+T</string>
+   </property>
+  </action>
+  <action name="actionItemFahUp">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/btnfolder.png</normaloff>:/images/image/btnfolder.png</iconset>
+   </property>
+   <property name="text">
+    <string>نقل العنصر للاعلى</string>
+   </property>
+   <property name="toolTip">
+    <string>نقل العنصر للاعلى</string>
+   </property>
+   <property name="statusTip">
+    <string>نقل العنصر للاعلى</string>
+   </property>
+  </action>
+  <action name="actionItemDown">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/btnfolder.png</normaloff>:/images/image/btnfolder.png</iconset>
+   </property>
+   <property name="text">
+    <string>نقل العنصر للاسفل</string>
+   </property>
+   <property name="toolTip">
+    <string>نقل العنصر للاسفل</string>
+   </property>
+  </action>
+  <action name="actionItemFahDelet">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/edit-delete.png</normaloff>:/images/image/edit-delete.png</iconset>
+   </property>
+   <property name="text">
+    <string>حذف العنصر المحدد</string>
+   </property>
+   <property name="toolTip">
+    <string>حذف العنصر المحدد</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Del</string>
+   </property>
+  </action>
+  <action name="actionItemFahRen">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/edit-rename.png</normaloff>:/images/image/edit-rename.png</iconset>
+   </property>
+   <property name="text">
+    <string>اعادة تسمية العنصر</string>
+   </property>
+   <property name="toolTip">
+    <string>اعادة تسمية العنصر</string>
+   </property>
+   <property name="whatsThis">
+    <string>اعادة تسمية العنصر العنصر المحدد في الفهرسة</string>
+   </property>
+   <property name="shortcut">
+    <string>F2</string>
+   </property>
+  </action>
+  <action name="actionFahAddItem">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/edit_fahrass.png</normaloff>:/images/image/edit_fahrass.png</iconset>
+   </property>
+   <property name="text">
+    <string>اضافة عنصر جديد</string>
+   </property>
+   <property name="iconText">
+    <string>جديد</string>
+   </property>
+   <property name="toolTip">
+    <string>اضافة عنصر جديد</string>
+   </property>
+   <property name="whatsThis">
+    <string>اضافة عنصر جديد الى الفهرسة في نفس المستوى المحدد
+ملاحظة:قبل ان تتمكن من اضافة العنصر يجب ان تحدد النص من مربع النص</string>
+   </property>
+   <property name="shortcut">
+    <string>F3</string>
+   </property>
+  </action>
+  <action name="actionFahAddChild">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/edit_fahrass_child.png</normaloff>:/images/image/edit_fahrass_child.png</iconset>
+   </property>
+   <property name="text">
+    <string>اضافة عنصر ابن للعنصر المحدد</string>
+   </property>
+   <property name="iconText">
+    <string>اضافة ابن</string>
+   </property>
+   <property name="toolTip">
+    <string>اضافة عنصر ابن للعنصر المحدد</string>
+   </property>
+   <property name="whatsThis">
+    <string>اضافة عنصر جديد ابن للعنصر المحدد الى الفهرسة
+ملاحظة:قبل ان تتمكن من اضافة العنصر يجب ان تحدد النص من مربع النص</string>
+   </property>
+   <property name="shortcut">
+    <string>F4</string>
+   </property>
+  </action>
+  <action name="actionSaveEdit">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/document-save.png</normaloff>:/images/image/document-save.png</iconset>
+   </property>
+   <property name="text">
+    <string>حفظ التعديلات على الكتاب والفهرسة</string>
+   </property>
+   <property name="toolTip">
+    <string>حفظ التعديلات على الكتاب والفهرسة</string>
+   </property>
+   <property name="statusTip">
+    <string>بالنقر على هذا الزر ستقوم بحفظ الفهرسة والكتاب الحالي</string>
+   </property>
+   <property name="whatsThis">
+    <string>بالنقر على هذا الزر ستقوم بحفظ الفهرسة والكتاب الحالي</string>
+   </property>
+  </action>
+  <action name="actionFindBkOrHt">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/FIN_book.png</normaloff>
+     <normalon>:/images/image/edit-find-user.png</normalon>:/images/image/FIN_book.png</iconset>
+   </property>
+   <property name="text">
+    <string>بحث عن مؤلف او كتاب</string>
+   </property>
+   <property name="toolTip">
+    <string>بحث عن مؤلف او كتاب</string>
+   </property>
+   <property name="statusTip">
+    <string>انقر على الزر لتغيير بين البحث عن كتاب او مؤلف\nبحيث سيتم فلترة الكتب حسب خيارك بمجرد ادخال اي حرف الى نص البحث</string>
+   </property>
+   <property name="whatsThis">
+    <string>انقر على الزر لتغيير بين البحث عن كتاب او مؤلف
+بحيث سيتم فلترة الكتب حسب خيارك بمجرد ادخال اي حرف الى نص البحث</string>
+   </property>
+  </action>
+  <action name="actionBookExpAll">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/btnfolder.png</normaloff>:/images/image/btnfolder.png</iconset>
+   </property>
+   <property name="text">
+    <string>توسيع الكل</string>
+   </property>
+   <property name="toolTip">
+    <string>توسيع الكل</string>
+   </property>
+   <property name="statusTip">
+    <string>توسيع الكل</string>
+   </property>
+  </action>
+  <action name="actionBookColpAll">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/colapse.png</normaloff>:/images/image/colapse.png</iconset>
+   </property>
+   <property name="text">
+    <string>غلق الكل</string>
+   </property>
+   <property name="toolTip">
+    <string>غلق الكل</string>
+   </property>
+   <property name="statusTip">
+    <string>غلق الكل</string>
+   </property>
+  </action>
+  <action name="actionFavSave">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/document-save.png</normaloff>:/images/image/document-save.png</iconset>
+   </property>
+   <property name="text">
+    <string>حفظ المفضلة</string>
+   </property>
+   <property name="toolTip">
+    <string>حفظ المفضلة</string>
+   </property>
+  </action>
+  <action name="actionFavDelete">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/edit-delete.png</normaloff>:/images/image/edit-delete.png</iconset>
+   </property>
+   <property name="text">
+    <string>حذف العنصر المحدد</string>
+   </property>
+   <property name="toolTip">
+    <string>حذف العنصر المحدد</string>
+   </property>
+   <property name="statusTip">
+    <string>حذف العنصر المحدد</string>
+   </property>
+  </action>
+  <action name="actionFavItemUp">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/btnfolder.png</normaloff>:/images/image/btnfolder.png</iconset>
+   </property>
+   <property name="text">
+    <string>نقل العنصر للاعلى</string>
+   </property>
+   <property name="toolTip">
+    <string>نقل العنصر للاعلى</string>
+   </property>
+   <property name="statusTip">
+    <string>نقل العنصر للاعلى</string>
+   </property>
+  </action>
+  <action name="actionFavItemDown">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/btnfolder.png</normaloff>:/images/image/btnfolder.png</iconset>
+   </property>
+   <property name="text">
+    <string>نقل العنصر للاسفل</string>
+   </property>
+   <property name="toolTip">
+    <string>نقل العنصر للاسفل</string>
+   </property>
+   <property name="statusTip">
+    <string>نقل العنصر للاسفل</string>
+   </property>
+  </action>
+  <action name="actionFavItemRen">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/edit-rename.png</normaloff>:/images/image/edit-rename.png</iconset>
+   </property>
+   <property name="text">
+    <string>اعادة تسمية العنصر</string>
+   </property>
+   <property name="toolTip">
+    <string>اعادة تسمية العنصر</string>
+   </property>
+   <property name="statusTip">
+    <string>اعادة تسمية العنصر</string>
+   </property>
+  </action>
+  <action name="actionFindItemUp">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/btnfolder.png</normaloff>:/images/image/btnfolder.png</iconset>
+   </property>
+   <property name="text">
+    <string>نقل العنصر للاعلى</string>
+   </property>
+   <property name="toolTip">
+    <string>نقل العنصر للاعلى</string>
+   </property>
+   <property name="statusTip">
+    <string>نقل العنصر للاعلى</string>
+   </property>
+  </action>
+  <action name="actionFindItemDown">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/btnfolder.png</normaloff>:/images/image/btnfolder.png</iconset>
+   </property>
+   <property name="text">
+    <string>نقل العنصر للاسفل</string>
+   </property>
+   <property name="toolTip">
+    <string>نقل العنصر للاسفل</string>
+   </property>
+   <property name="statusTip">
+    <string>نقل العنصر للاسفل</string>
+   </property>
+  </action>
+  <action name="actionFindSave">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/document-save.png</normaloff>:/images/image/document-save.png</iconset>
+   </property>
+   <property name="text">
+    <string>حفظ نتائج البحث</string>
+   </property>
+   <property name="toolTip">
+    <string>حفظ نتائج البحث</string>
+   </property>
+   <property name="statusTip">
+    <string>حفظ نتائج البحث</string>
+   </property>
+  </action>
+  <action name="actionFindLoad">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/btnfolder.png</normaloff>:/images/image/btnfolder.png</iconset>
+   </property>
+   <property name="text">
+    <string>فتح نتائج البحث</string>
+   </property>
+   <property name="toolTip">
+    <string>فتح نتائج البحث</string>
+   </property>
+  </action>
+  <action name="actionFindDelete">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/edit-delete.png</normaloff>:/images/image/edit-delete.png</iconset>
+   </property>
+   <property name="text">
+    <string>حذف العنصر المحدد</string>
+   </property>
+   <property name="toolTip">
+    <string>حذف العنصر المحدد</string>
+   </property>
+   <property name="statusTip">
+    <string>حذف العنصر المحدد</string>
+   </property>
+  </action>
+  <action name="actionUpdatGroup">
+<<<<<<< HEAD
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/edit-select.png</normaloff>:/images/image/edit-select.png</iconset>
+   </property>
+=======
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   <property name="text">
+    <string>تعليم الكتب الغير متوفرة</string>
+   </property>
+   <property name="statusTip">
+    <string>يمكنك النقر على هذا الزر من التمييز بين الكتب المتوفرة على جهازك والغير متوفرة قبل حذفها </string>
+   </property>
+   <property name="whatsThis">
+    <string>يمكنك النقر على هذا الزر من التمييز بين الكتب المتوفرة على جهازك والغير متوفرة قبل حذفها </string>
+   </property>
+  </action>
+  <action name="actionUpdatGroupRemove">
+<<<<<<< HEAD
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/edit-clear.png</normaloff>:/images/image/edit-clear.png</iconset>
+   </property>
+=======
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   <property name="text">
+    <string>حذف الكتب الغير متوفرة</string>
+   </property>
+   <property name="statusTip">
+    <string>يمكنك من حذف الكتب الغير متوفرة على جهازك من قائمة الكتب\nقبل تنفيذه تأكد من ان مسار الكتب صحيح في خيارات البرنامج</string>
+   </property>
+   <property name="whatsThis">
+    <string>يمكنك من حذف الكتب الغير متوفرة على جهازك من قائمة الكتب
+قبل تنفيذه تأكد من ان مسار الكتب صحيح في خيارات البرنامج</string>
+   </property>
+  </action>
+  <action name="actionBookInfo">
+<<<<<<< HEAD
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/help-about.png</normaloff>:/images/image/help-about.png</iconset>
+   </property>
+=======
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   <property name="text">
+    <string>معلومات عن الكتاب</string>
+   </property>
+   <property name="statusTip">
+    <string>يعرض معلومات عن الكتاب ومسار الكتاب</string>
+   </property>
+   <property name="whatsThis">
+    <string>يعرض معلومات عن الكتاب ومسار الكتاب</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+I</string>
+   </property>
+  </action>
+  <action name="actionArchive">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/tar-gz.png</normaloff>:/images/image/tar-gz.png</iconset>
+   </property>
+   <property name="text">
+    <string>ضغط الكتاب الى ملف</string>
+   </property>
+   <property name="statusTip">
+    <string>يمكنك هذا الخيار من ضغط الكتاب الى ملف يأخذ امتداد \nkrts\nهو في الحقيقة ضغط بصيغة \ntar.gz\nلتمييزه عن الملفات المضغوطة الاخرى</string>
+   </property>
+   <property name="whatsThis">
+    <string>يمكنك هذا الخيار من ضغط الكتاب الى ملف يأخذ امتداد 
+krts
+هو في الحقيقة ضغط بصيغة 
+tar.gz
+لتمييزه عن الملفات المضغوطة الاخرى</string>
+   </property>
+  </action>
+  <action name="actionWhatsThis">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/whatsthis.png</normaloff>:/images/image/whatsthis.png</iconset>
+   </property>
+   <property name="text">
+    <string>ما هذا ؟</string>
+   </property>
+   <property name="shortcut">
+    <string>Shift+F1</string>
+   </property>
+  </action>
+  <action name="actionZoumIn">
+<<<<<<< HEAD
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/zoom-in.png</normaloff>:/images/image/zoom-in.png</iconset>
+   </property>
+=======
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   <property name="text">
+    <string>تكبير النص</string>
+   </property>
+   <property name="statusTip">
+    <string>تكبير النص</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl++</string>
+   </property>
+  </action>
+  <action name="actionZoomOut">
+<<<<<<< HEAD
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/zoom-out.png</normaloff>:/images/image/zoom-out.png</iconset>
+   </property>
+=======
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   <property name="text">
+    <string>تصغير النص</string>
+   </property>
+   <property name="statusTip">
+    <string>تصغير النص</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+-</string>
+   </property>
+  </action>
+  <action name="action_stopFind">
+   <property name="text">
+    <string>توقيف البحث</string>
+   </property>
+   <property name="toolTip">
+    <string> Alt+Sتوقيف البحث</string>
+   </property>
+   <property name="statusTip">
+    <string> Alt+Sتوقيف البحث</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+S</string>
+   </property>
+  </action>
+  <action name="actionNewPageAfter">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/address-book-new.png</normaloff>:/images/image/address-book-new.png</iconset>
+   </property>
+   <property name="text">
+    <string>اضافة صفحة بعد الحالية</string>
+   </property>
+   <property name="iconText">
+    <string>بعد الحالية</string>
+   </property>
+   <property name="statusTip">
+    <string>اضافة صفحة بعد الحالية</string>
+   </property>
+  </action>
+  <action name="actionNewPageBefor">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/address-book-new.png</normaloff>:/images/image/address-book-new.png</iconset>
+   </property>
+   <property name="text">
+    <string>اضافة صفحة قبل الحالية</string>
+   </property>
+   <property name="iconText">
+    <string>قبل الحالية</string>
+   </property>
+   <property name="statusTip">
+    <string>اضافة صفحة قبل الحالية</string>
+   </property>
+  </action>
+  <action name="actionRemovePage">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/edit-delete.png</normaloff>:/images/image/edit-delete.png</iconset>
+   </property>
+   <property name="text">
+    <string>حذف الصفحة الحالية</string>
+   </property>
+   <property name="iconText">
+    <string>حذف الصفحة</string>
+   </property>
+   <property name="statusTip">
+    <string>حذف الصفحة الحالية</string>
+   </property>
+  </action>
+  <action name="actionFontCostum">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/draw-text.png</normaloff>:/images/image/draw-text.png</iconset>
+   </property>
+   <property name="text">
+    <string>طبق خط مخصص للتحديد</string>
+   </property>
+   <property name="iconText">
+    <string>خط مخصص</string>
+   </property>
+   <property name="statusTip">
+    <string>طبق خط مخصص للتحديد</string>
+   </property>
+  </action>
+  <action name="actionCreatNewBook">
+   <property name="icon">
+    <iconset resource="images.qrc">
+<<<<<<< HEAD
+     <normaloff>:/images/image/newBlanBook.png</normaloff>:/images/image/newBlanBook.png</iconset>
+=======
+     <normaloff>:/images/image/address-book-new.png</normaloff>:/images/image/address-book-new.png</iconset>
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   </property>
+   <property name="text">
+    <string>انشاء كتاب جديد</string>
+   </property>
+   <property name="toolTip">
+    <string>انشاء كتاب جديد فارغ</string>
+   </property>
+   <property name="statusTip">
+    <string>انشاء كتاب جديد فارغ</string>
+   </property>
+   <property name="whatsThis">
+    <string>انشاء كتاب جديد فارغ</string>
+   </property>
+  </action>
+  <action name="actionDownloadBooks">
+<<<<<<< HEAD
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/mail-receive.png</normaloff>:/images/image/mail-receive.png</iconset>
+   </property>
+=======
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   <property name="text">
+    <string>تحميل كتب</string>
+   </property>
+   <property name="toolTip">
+    <string>تحميل كتب من الانترت</string>
+   </property>
+   <property name="statusTip">
+    <string>تحميل كتب من الانترت</string>
+   </property>
+  </action>
+  <action name="actionShamilaCdrom">
+<<<<<<< HEAD
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/import-ShamilaCdrom.png</normaloff>:/images/image/import-ShamilaCdrom.png</iconset>
+   </property>
+=======
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   <property name="text">
+    <string>تحويل قرص الشاملة</string>
+   </property>
+  </action>
+  <action name="actionControle">
+   <property name="icon">
+    <iconset resource="images.qrc">
+<<<<<<< HEAD
+     <normaloff>:/images/image/preferences-other.png</normaloff>:/images/image/preferences-other.png</iconset>
+=======
+     <normaloff>:/images/image/config-background.png</normaloff>:/images/image/config-background.png</iconset>
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   </property>
+   <property name="text">
+    <string>لوحة التحكم</string>
+   </property>
+   <property name="toolTip">
+    <string>لوحة التحكم في المجموعات والكتب وتحريرها</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+B</string>
+   </property>
+  </action>
+  <action name="actionDvd">
+<<<<<<< HEAD
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/import-cdrom.png</normaloff>:/images/image/import-cdrom.png</iconset>
+   </property>
+=======
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+   <property name="text">
+    <string>اضافة كتب من القرص المضغوط</string>
+   </property>
+  </action>
+<<<<<<< HEAD
+  <action name="actionCostumActions">
+   <property name="icon">
+    <iconset resource="images.qrc">
+     <normaloff>:/images/image/configure-toolbars.png</normaloff>:/images/image/configure-toolbars.png</iconset>
+   </property>
+   <property name="text">
+    <string>اضبط شريط الأدوات</string>
+   </property>
+  </action>
+=======
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+ </widget>
+ <layoutdefault spacing="3" margin="3"/>
+ <tabstops>
+  <tabstop>textBrowser_0</tabstop>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>treeWidget_books</tabstop>
+  <tabstop>treeWidget_curaan</tabstop>
+  <tabstop>treeWidgetFind</tabstop>
+  <tabstop>lineEdit</tabstop>
+  <tabstop>pushButtonEditClose</tabstop>
+  <tabstop>comboBox_tafasir</tabstop>
+  <tabstop>comboBox</tabstop>
+  <tabstop>pushButton_gotafsir</tabstop>
+  <tabstop>lineEdit_find_cur</tabstop>
+  <tabstop>pushButton_gofind</tabstop>
+  <tabstop>treeWidget_fav</tabstop>
+ </tabstops>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>btnClearTree</sender>
+   <signal>clicked()</signal>
+   <receiver>treeWidget_rowatTabia</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>428</x>
+     <y>387</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>483</x>
+     <y>523</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <designerdata>
+  <property name="gridDeltaX">
+   <number>5</number>
+  </property>
+  <property name="gridDeltaY">
+   <number>5</number>
+  </property>
+  <property name="gridSnapX">
+   <bool>true</bool>
+  </property>
+  <property name="gridSnapY">
+   <bool>true</bool>
+  </property>
+  <property name="gridVisible">
+   <bool>true</bool>
+  </property>
+ </designerdata>
+</ui>

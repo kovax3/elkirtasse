@@ -1,0 +1,17 @@
+
+[Desktop Entry]
+Type=Application
+Name=elkirtasse
+Name[ar]=مكتبة القرطاس
+
+Comment[ar]=طالع حرر اضف الكتب
+
+Exec=elkirtasse
+Icon=elkirtasse
+<<<<<<< HEAD
+Categories=X-Islamic-Software;GTK;Qt;Office;Viewer;
+=======
+Categories=Office;Dictionary;
+>>>>>>> 782789df57a2a7d2f3b28c5cde42eee89c50d76e
+
+
